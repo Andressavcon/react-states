@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=PT%20Sans%20Caption:700|PT%20Sans%20Caption:400');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'PT Sans Caption';
+}
+
+body {
+  font-weight: 700;
+  background: rgb(19, 8, 18);
+  color: rgb(246, 213, 245);
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}

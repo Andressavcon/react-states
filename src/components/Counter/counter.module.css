@@ -1,0 +1,60 @@
+.container {
+  width: 25rem;
+  margin: 1rem auto;
+  position: relative;
+}
+
+.value {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.value__number {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.value__digit {
+  padding: 0.8rem 1.2rem;
+  background: rgba(196, 62, 192, 0.135);
+  border-radius: 0.4rem;
+  font-size: 3rem;
+}
+
+.alertContainer {
+  position: absolute;
+  top: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  color: rgb(196, 62, 192);
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4rem;
+}
+
+.btn-add {
+  background-color: rgb(217, 159, 215);
+}
+
+.btn-sub {
+  background-color: rgb(123, 43, 121);
+  color: rgb(246, 213, 245);
+}
+
+.btn-add:hover,
+.btn-sub:hover {
+  opacity: 0.8;
+}
